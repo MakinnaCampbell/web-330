@@ -1,0 +1,49 @@
+/*
+  Pragmatic JavaScript
+  Chapter 2
+  Programming Assignment
+
+  Author: Makinna Campbell
+  Date: 11.22.26
+  Filename: styles.css
+*/
+
+/* Add your CSS styles here */
+
+
+body {
+   font-family: Georgia, serif;
+   background-color: #111;
+   color: white;
+}
+
+.form-container {
+   width: 500px;
+   margin: 50px auto;
+   padding: 25px;
+   background-color: #222;
+}
+
+h1 {
+   text-align: center;
+   color: #d4af37;
+}
+
+input {
+   margin: 8px 0 15px;
+   padding: 8px;
+}
+
+input[type="submit"] {
+   background-color: #bbbcb9;
+   color: black;
+   border: none;
+   cursor: pointer;
+}
+
+#message {
+   text-align: center;
+   font-weight: bold;
+   color: #d4af37;
+}
+

@@ -1,0 +1,73 @@
+/*
+  Pragmatic JavaScript
+  Chapter 1
+  Programming Assignment
+
+  Author: Makinna Campbell
+  Date: 11.1.26
+  Filename: styles.css
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fddbf9;
+  color: #76558c;
+  margin: 0;
+  padding: 20px;
+}
+
+#mainContainer {
+  width: 400px;
+  max-width: 90%;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #fff8fd;
+  border: 2px solid #e8b9df;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px #e8cce8;
+}
+
+label {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #d9b4e8;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #dca9df;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #bd91d1;
+}
+
+#characterOutput {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #b0f6de;
+  border: 1px solid #135ea1;
+  border-radius: 10px;
+}
+
+#characterOutput h2 {
+  color: #056b8a;
+}
